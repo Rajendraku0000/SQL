@@ -65,7 +65,7 @@ select upper(Name) as new_str from city;
 select lower(Name) as new_str from city;
 
 
---  9 lpead() or rpad() := in function ka use kiya jata he padding ke liye ya extra word ko concate karne ke liye 
+--  9 lpad() or rpad() := in function ka use kiya jata he padding ke liye ya extra word ko concate karne ke liye 
 
 select lpad("rajendra",10,"@");
 select lpad("rajendra",5,"@");
@@ -75,4 +75,4 @@ select rpad("rajendra",5,"@");
 
 
 -- 10 reverse(): = in function ka use kiya jata he string ko reverse karne ke liye ;
-select reverse("hello");
+select reverse("rajendra");
