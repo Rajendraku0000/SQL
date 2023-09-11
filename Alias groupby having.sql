@@ -60,6 +60,6 @@ select first_name , length(first_name) from actor;
  group by countrycode
  having sum(population)>500 and count(id)>1;
  
- select * from city;
+ select * from country;
  
  
